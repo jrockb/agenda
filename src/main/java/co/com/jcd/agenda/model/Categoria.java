@@ -22,7 +22,7 @@ public class Categoria implements Serializable {
 	@Column(name="nombre")
 	private String nombre;
 	@Column(name="estado")
-	private boolean estado;
+	private Integer estado;
 	
 	public int getCodigo() {
 		return codigo;
@@ -36,11 +36,12 @@ public class Categoria implements Serializable {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public boolean isEstado() {
+	public Integer getEstado() {
 		return estado;
 	}
-	public void setEstado(boolean estado) {
+	public void setEstado(Integer estado) {
 		this.estado = estado;
 	}
+	
 
 }

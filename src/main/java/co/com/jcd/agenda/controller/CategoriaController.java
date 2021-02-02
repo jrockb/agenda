@@ -24,11 +24,12 @@ public class CategoriaController implements Serializable{
 	
 	@PostConstruct
 	public void init() {
-		categoria = new Categoria();
+		categoria = new Categoria();		
 	}
 	
 	public void registrar() {
 		try {
+			categoria.setEstado(1);
 			categoriaEjb.create(categoria);
 		}catch(Exception ex) {
 			
