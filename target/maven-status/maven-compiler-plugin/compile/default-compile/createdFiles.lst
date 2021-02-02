@@ -1,0 +1,4 @@
+co/com/jcd/agenda/controller/CategoriaController.class
+co/com/jcd/agenda/model/Categoria.class
+co/com/jcd/agenda/ejb/CategoriaFacade.class
+co/com/jcd/agenda/ejb/CategoriaFacadeLocal.class

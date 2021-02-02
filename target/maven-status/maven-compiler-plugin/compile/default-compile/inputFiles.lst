@@ -1,0 +1,4 @@
+/home/jcd/agenda_ws/agenda/src/main/java/co/com/jcd/agenda/controller/CategoriaController.java
+/home/jcd/agenda_ws/agenda/src/main/java/co/com/jcd/agenda/model/Categoria.java
+/home/jcd/agenda_ws/agenda/src/main/java/co/com/jcd/agenda/ejb/CategoriaFacade.java
+/home/jcd/agenda_ws/agenda/src/main/java/co/com/jcd/agenda/ejb/CategoriaFacadeLocal.java
